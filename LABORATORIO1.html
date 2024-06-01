@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Laboratorio N1</title>
+     <style>
+          body{
+               background-image: url(img.jpg);
+          }
+     </style>
+</head>
+<body>
+
+     <form action="1.php" method="post">
+          <div>
+               <h1>Problema 1 </h1>
+               <input type="number"  placeholder="ingrese el primer numero" name="numero1">
+          <input type="number" placeholder="ingrese el segundo numero" name="numero2">
+          <input type="number"  placeholder="ingrese el tercer numero" name="numero3">
+          <input type="submit" value="Enviar">
+          </div>
+
+          
+         
+     </form>
+     
+               <form action="2.php" method="post">
+                    <h1>Problema 2 </h1>
+               <input type="text" placeholder="introduce el nombre del cliente" name="clint">
+               <input type="text" placeholder="introduce el nombre del producto" name="nprod">
+               <input type="number" placeholder="introduce cantidad del producto" name="capro">
+               <input type="number" placeholder="introduce precio de producto" name="prpro">
+               <input type="submit" value="Enviar">
+               </form>
+     
+     <form action="3.php" method="post">
+     <h1>Problema 3 </h1>
+     Monto del préstamo: <input type="number" step="0.01" name="monto" required><br>
+  Tipo de empleado: 
+  <input type="radio" id="publico" name="empleado" value="publico" required>
+  <label for="publico">Público</label>
+  <input type="radio" id="privado" name="empleado" value="privado">
+  <label for="privado">Privado</label><br>
+  <input type="submit">
+</form>
+
+     
+</body>
+</html>
+
