@@ -1,0 +1,7 @@
+
+predicates 
+
+
+goal
+
+clauases 

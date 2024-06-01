@@ -1,0 +1,12 @@
+predicates
+     mostrar(real)
+
+
+goal
+
+ write ("INGRESA TU ALTURA : "), readreal(A),mostrar(A).
+     
+
+clauses
+     mostrar(A) :- A > 1.71, write("Altura Alta ");
+     A< 1.71,write("Altura media").

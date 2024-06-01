@@ -1,0 +1,16 @@
+predicates
+entero(integer,integere)
+
+goal
+clearwindow,
+clauses
+entero(B):-
+    B>5; write(B,"\nINGRESE UN NUMERO"),
+    readint(NUMERO),
+    FORM1=NUMERO+2,
+    FORM2=NUMERO+5,
+    FORM3=NUMERO+8,
+    FORM4=NUMERO+11
+    write(FORM1," | ",FORM2," | ",FORM3," |",FORM4,"| ","\n"),
+    I= 2,
+    entero(I).
